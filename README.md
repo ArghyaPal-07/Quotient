@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+Quotient - Your Go-To Quotes App
 
-## Project info
+Quotient is a clean, modern, and interactive web application for discovering, sharing, and discussing your favorite quotes. It's a community-driven platform designed to be a calm and inspiring space for thought and reflection.
 
-**URL**: https://lovable.dev/projects/37535523-7410-468b-8dce-3ebe0f3e5bac
+✨ Key Features
+Dynamic Discovery Feed: Browse quotes in a feed sorted by "Trending," "Latest," or a personalized "For You" selection.
 
-## How can I edit this code?
+Seamless Quote Submission: Easily upload new quotes with their authors and add relevant tags for categorization.
 
-There are several ways of editing your application.
+Interactive Reactions: Engage with quotes using expressive reactions like 💡 (Inspiring), 🤔 (Thought-Provoking), and ❤️ (Resonates).
 
-**Use Lovable**
+Community Discussion: Each quote has its own comment section, allowing for deeper conversations and shared perspectives.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/37535523-7410-468b-8dce-3ebe0f3e5bac) and start prompting.
+User Profiles: Showcase your submitted quotes and see what others have shared on public profile pages.
 
-Changes made via Lovable will be committed automatically to this repo.
+Fully Responsive: Enjoy a beautiful and consistent experience on both mobile and desktop devices.
 
-**Use your preferred IDE**
+💻 Tech Stack
+This project is built with a modern, fast, and scalable technology stack:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend: React (with Vite)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Language: TypeScript
 
-Follow these steps:
+Styling: Tailwind CSS
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+UI Components: shadcn-ui
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Routing: React Router
 
-# Step 3: Install the necessary dependencies.
-npm i
+🚀 Getting Started
+Follow these instructions to get a local copy of the project up and running for development and testing purposes.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Prerequisites
+Node.js (version 18.x or higher)
+
+npm or yarn
+
+Installation & Setup
+Clone the repository:
+
+Bash
+
+git clone https://github.com/ArghyaPal-07/Quotient.git
+Navigate to the project directory:
+
+Bash
+
+cd Quotient
+Install the dependencies:
+
+Bash
+
+npm install
+Run the development server:
+
+Bash
+
 npm run dev
-```
+Open your browser and visit http://localhost:5173 (or the port specified in your console) to see the app live.
 
-**Edit a file directly in GitHub**
+📂 Project Structure
+The project follows a standard Vite + React project structure:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Quotient/
+├── public/              # Static assets (images, fonts, etc.)
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page components
+│   ├── App.tsx          # Main application component
+│   └── main.tsx         # Entry point of the application
+├── index.html           # Main HTML file
+├── package.json         # Project dependencies and scripts
+├── tailwind.config.js   # Tailwind CSS configuration
+└── vite.config.ts       # Vite configuration
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-**Use GitHub Codespaces**
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Fork the Project
 
-## What technologies are used for this project?
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
 
-This project is built with:
+Commit your Changes (git commit -m 'Add some AmazingFeature')
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Push to the Branch (git push origin feature/AmazingFeature)
 
-## How can I deploy this project?
+Open a Pull Request
 
-Simply open [Lovable](https://lovable.dev/projects/37535523-7410-468b-8dce-3ebe0f3e5bac) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
